@@ -1,5 +1,3 @@
-package week01;
-
 /*
     left=0, right=1부터 시작
     l+r>k : left 이동
