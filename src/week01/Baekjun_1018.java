@@ -11,7 +11,6 @@ import java.util.StringTokenizer;
 */
 
 public class Baekjun_1018 {
-
     // 8*8 판에서 최대 변경은 64번
     public static int min = 64;
     public static boolean[][] arr;
