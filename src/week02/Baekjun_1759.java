@@ -40,7 +40,7 @@ public class Baekjun_1759 {
         if (depth == L) { // 조건 2
             String str = sb.toString();
             if (isPrintable(str)) { // 조건 1
-                System.out.println(str); // 조건1,2 동시 만족 시
+                System.out.println(str); // 조건1,2 동시 만족 시 출력
             }
             return;
         }
