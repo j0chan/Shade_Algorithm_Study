@@ -30,13 +30,14 @@ public class Baekjun_1260 {
         arr = new int[n + 1][n + 1];
         visit = new boolean[n + 1]; // dfs용 visit 초기화
 
+        // 간선 연결
         for (int i = 0; i < m; i++) {
             st = new StringTokenizer(br.readLine(), " ");
-            int a = Integer.parseInt(st.nextToken());
-            int b = Integer.parseInt(st.nextToken());
+            int u = Integer.parseInt(st.nextToken());
+            int v = Integer.parseInt(st.nextToken());
 
-            arr[a][b] = 1;
-            arr[b][a] = 1; // 이 문제는 방향성이 없기 때문에 반대 경우도 가능
+            arr[u][v] = 1;
+            arr[v][u] = 1;
         }
 
         dfs(v);
