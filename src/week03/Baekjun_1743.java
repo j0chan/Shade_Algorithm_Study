@@ -36,6 +36,7 @@ public class Baekjun_1743 {
             c = Integer.parseInt(st.nextToken());
 
             room[r][c] = true;
+
         }
 
         // 음식물, 방문x 탐색 시작
