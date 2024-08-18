@@ -52,6 +52,7 @@ public class Baekjun_1697 {
                     q.add(next);
                     visit[next] = visit[tmp] + 1; // 횟수++
                 }
+
             }
         }
     }
