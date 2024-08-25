@@ -12,7 +12,7 @@ class Solution {
             return Integer.compare(a[1], b[1]);
         });
 
-        // 최초 카메라 설치지점은 첫 차량의 진출지점
+        // 최초 카메라 설치지점은 첫 차량의 진출지점으로
         int camLoc = routes[0][1];
 
         // 설치한 카메라 개수
