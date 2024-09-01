@@ -9,7 +9,7 @@ public class Baekjun_11727 { // 2xN타일링2
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
 
-        int[] arr = new int[n+1];
+        int[] arr = new int[1001];
 
         // 초기값
         arr[1] = 1;
