@@ -3,7 +3,7 @@ package week06;
 import java.io.*;
 import java.util.*;
 
-public class Baekjun_14938 {
+public class Baekjun_14938 { // 서강그라운드
     static int N, M;
     static int max = Integer.MIN_VALUE;
     static int[] value;
